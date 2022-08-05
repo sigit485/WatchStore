@@ -7,23 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D2E80F4B996F15C8CC6798D /* Pods_WatchStore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94A8B08F22C231C2CCC72F1A /* Pods_WatchStore.framework */; };
+		8412BA05289B760800ED7555 /* ColorsViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8412BA04289B760800ED7555 /* ColorsViewCell.swift */; };
+		84239E64289A69EA0043C4A4 /* UIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84239E63289A69EA0043C4A4 /* UIView+Extension.swift */; };
+		84728658289B86820078D35A /* ColorProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84728657289B86820078D35A /* ColorProduct.swift */; };
 		84934159289297E80098A768 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84934158289297E80098A768 /* AppDelegate.swift */; };
-		8493415B289297E80098A768 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8493415A289297E80098A768 /* SceneDelegate.swift */; };
 		8493415D289297E80098A768 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8493415C289297E80098A768 /* ViewController.swift */; };
-		84934160289297E80098A768 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8493415E289297E80098A768 /* Main.storyboard */; };
 		84934162289297E90098A768 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84934161289297E90098A768 /* Assets.xcassets */; };
 		84934165289297E90098A768 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84934163289297E90098A768 /* LaunchScreen.storyboard */; };
+		8493416F28929A690098A768 /* UICustomSearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8493416E28929A690098A768 /* UICustomSearchBar.swift */; };
+		8493417328929D8C0098A768 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8493417228929D8C0098A768 /* UIColor+Extension.swift */; };
+		84D4B2442893C69C00385CD2 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D4B2432893C69C00385CD2 /* DetailViewController.swift */; };
+		84EE049128937C9500F45477 /* UIPageTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EE049028937C9500F45477 /* UIPageTabView.swift */; };
+		84EE04942893850100F45477 /* Watch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EE04932893850100F45477 /* Watch.swift */; };
+		84EE0497289385CE00F45477 /* WatchViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EE0496289385CE00F45477 /* WatchViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		772C6FBC2673F434271B645D /* Pods-WatchStore.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchStore.release.xcconfig"; path = "Target Support Files/Pods-WatchStore/Pods-WatchStore.release.xcconfig"; sourceTree = "<group>"; };
+		8412BA04289B760800ED7555 /* ColorsViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsViewCell.swift; sourceTree = "<group>"; };
+		84239E63289A69EA0043C4A4 /* UIView+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Extension.swift"; sourceTree = "<group>"; };
+		84728657289B86820078D35A /* ColorProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorProduct.swift; sourceTree = "<group>"; };
 		84934155289297E80098A768 /* WatchStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatchStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84934158289297E80098A768 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8493415A289297E80098A768 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		8493415C289297E80098A768 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		8493415F289297E80098A768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84934161289297E90098A768 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		84934164289297E90098A768 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		84934166289297E90098A768 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8493416E28929A690098A768 /* UICustomSearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UICustomSearchBar.swift; sourceTree = "<group>"; };
+		8493417228929D8C0098A768 /* UIColor+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		84D4B2432893C69C00385CD2 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		84EE049028937C9500F45477 /* UIPageTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIPageTabView.swift; sourceTree = "<group>"; };
+		84EE04932893850100F45477 /* Watch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watch.swift; sourceTree = "<group>"; };
+		84EE0496289385CE00F45477 /* WatchViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WatchViewCell.swift; sourceTree = "<group>"; };
+		94A8B08F22C231C2CCC72F1A /* Pods_WatchStore.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatchStore.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A7D1D143F9E7A6757CD6FD2 /* Pods-WatchStore.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatchStore.debug.xcconfig"; path = "Target Support Files/Pods-WatchStore/Pods-WatchStore.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +49,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D2E80F4B996F15C8CC6798D /* Pods_WatchStore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		338A179B7F3961CC0B7B50FD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				94A8B08F22C231C2CCC72F1A /* Pods_WatchStore.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8493414C289297E80098A768 = {
 			isa = PBXGroup;
 			children = (
 				84934157289297E80098A768 /* WatchStore */,
 				84934156289297E80098A768 /* Products */,
+				A1A0174835EF0609023ECC6D /* Pods */,
+				338A179B7F3961CC0B7B50FD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,15 +85,79 @@
 		84934157289297E80098A768 /* WatchStore */ = {
 			isa = PBXGroup;
 			children = (
+				84EE0492289384F100F45477 /* Model */,
+				8493417028929D750098A768 /* Preference */,
+				8493416C289299E10098A768 /* View */,
 				84934158289297E80098A768 /* AppDelegate.swift */,
-				8493415A289297E80098A768 /* SceneDelegate.swift */,
-				8493415C289297E80098A768 /* ViewController.swift */,
-				8493415E289297E80098A768 /* Main.storyboard */,
 				84934161289297E90098A768 /* Assets.xcassets */,
 				84934163289297E90098A768 /* LaunchScreen.storyboard */,
 				84934166289297E90098A768 /* Info.plist */,
 			);
 			path = WatchStore;
+			sourceTree = "<group>";
+		};
+		8493416C289299E10098A768 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				84EE0495289385AA00F45477 /* Items */,
+				8493416D289299F70098A768 /* Custom */,
+				8493415C289297E80098A768 /* ViewController.swift */,
+				84D4B2432893C69C00385CD2 /* DetailViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		8493416D289299F70098A768 /* Custom */ = {
+			isa = PBXGroup;
+			children = (
+				8493416E28929A690098A768 /* UICustomSearchBar.swift */,
+				84EE049028937C9500F45477 /* UIPageTabView.swift */,
+			);
+			path = Custom;
+			sourceTree = "<group>";
+		};
+		8493417028929D750098A768 /* Preference */ = {
+			isa = PBXGroup;
+			children = (
+				8493417128929D800098A768 /* Extensions */,
+			);
+			path = Preference;
+			sourceTree = "<group>";
+		};
+		8493417128929D800098A768 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8493417228929D8C0098A768 /* UIColor+Extension.swift */,
+				84239E63289A69EA0043C4A4 /* UIView+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		84EE0492289384F100F45477 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				84EE04932893850100F45477 /* Watch.swift */,
+				84728657289B86820078D35A /* ColorProduct.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		84EE0495289385AA00F45477 /* Items */ = {
+			isa = PBXGroup;
+			children = (
+				84EE0496289385CE00F45477 /* WatchViewCell.swift */,
+				8412BA04289B760800ED7555 /* ColorsViewCell.swift */,
+			);
+			path = Items;
+			sourceTree = "<group>";
+		};
+		A1A0174835EF0609023ECC6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A7D1D143F9E7A6757CD6FD2 /* Pods-WatchStore.debug.xcconfig */,
+				772C6FBC2673F434271B645D /* Pods-WatchStore.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +167,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 84934169289297E90098A768 /* Build configuration list for PBXNativeTarget "WatchStore" */;
 			buildPhases = (
+				DBE25650440DB608758D694A /* [CP] Check Pods Manifest.lock */,
 				84934151289297E80098A768 /* Sources */,
 				84934152289297E80098A768 /* Frameworks */,
 				84934153289297E80098A768 /* Resources */,
@@ -127,34 +221,58 @@
 			files = (
 				84934165289297E90098A768 /* LaunchScreen.storyboard in Resources */,
 				84934162289297E90098A768 /* Assets.xcassets in Resources */,
-				84934160289297E80098A768 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DBE25650440DB608758D694A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-WatchStore-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		84934151289297E80098A768 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				84EE0497289385CE00F45477 /* WatchViewCell.swift in Sources */,
+				8493416F28929A690098A768 /* UICustomSearchBar.swift in Sources */,
+				8412BA05289B760800ED7555 /* ColorsViewCell.swift in Sources */,
+				84EE04942893850100F45477 /* Watch.swift in Sources */,
+				84239E64289A69EA0043C4A4 /* UIView+Extension.swift in Sources */,
 				8493415D289297E80098A768 /* ViewController.swift in Sources */,
 				84934159289297E80098A768 /* AppDelegate.swift in Sources */,
-				8493415B289297E80098A768 /* SceneDelegate.swift in Sources */,
+				84728658289B86820078D35A /* ColorProduct.swift in Sources */,
+				84EE049128937C9500F45477 /* UIPageTabView.swift in Sources */,
+				8493417328929D8C0098A768 /* UIColor+Extension.swift in Sources */,
+				84D4B2442893C69C00385CD2 /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		8493415E289297E80098A768 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				8493415F289297E80098A768 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		84934163289297E90098A768 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +400,7 @@
 		};
 		8493416A289297E90098A768 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A7D1D143F9E7A6757CD6FD2 /* Pods-WatchStore.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,9 +411,9 @@
 				INFOPLIST_FILE = WatchStore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,12 +423,13 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		8493416B289297E90098A768 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 772C6FBC2673F434271B645D /* Pods-WatchStore.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,9 +440,9 @@
 				INFOPLIST_FILE = WatchStore/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -332,7 +452,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
